@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zlogyu.github.io</id>
     <title>Drphack-官方网站</title>
-    <updated>2020-04-22T18:30:32.031Z</updated>
+    <updated>2020-04-23T19:11:47.846Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zlogyu.github.io"/>
     <link rel="self" href="https://zlogyu.github.io/atom.xml"/>
@@ -46,8 +46,37 @@
         <link href="https://zlogyu.github.io/RPGs/">
         </link>
         <updated>2020-04-22T17:58:46.000Z</updated>
-        <content type="html"><![CDATA[<p>等待广告</p>
-]]></content>
+        <summary type="html"><![CDATA[<p><strong>本服特色</strong></p>
+<p>1️⃣ 养老特色：</p>
+<p>☕️ 服务器设置了休闲副本</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>本服特色</strong></p>
+<p>1️⃣ 养老特色：</p>
+<p>☕️ 服务器设置了休闲副本</p>
+<!-- more -->
+<p>2️⃣ 经典RPG特色：</p>
+<p>🤾‍♀ 增加了刷boss掉落可以变成小怪掉落！</p>
+<p>🏄‍♀ BOSS掉落物&gt;小怪掉落物 x10!</p>
+<!-- more -->
+<p><strong>如何游玩？</strong><br>
+🏆 本服为我的世界联机侠软件<a href="http://www.lianjixia.com/">属于一个免费让你开服的软件</a>中一款服务器<br>
+🍳 而您只用下载 <a href="http://www.lianjixia.com/">我的世界联机侠</a><br>
+🍳 并且搜索 炽热RPG ,不需搜索全昵称,本服一直改变,炽热RPG不会改变,进入即可.而联机侠需要在网站上下载或进入官网下载。简单快捷方便。<br>
+🙏 感谢您们<a href="https://jq.qq.com/?_wv=1027&amp;k=5libShI">加群</a>，群福利，其他福利，快速游玩全在群里面！<br>
+❓ 不会玩?领取装备一套一套地淦就行了!爽快好玩!</p>
+<!-- more -->
+<p><strong>推荐链接</strong><br>
+💻 <a href="http://www.lianjixia.com/">联机侠官网</a><br>
+💻 <a href="https://jq.qq.com/?_wv=1027&amp;k=5RWJ2D2I">服务器官方群(建议)</a><br>
+💎 <a href="">点击我查看服务器氪金大佬哟</a></p>
+<!-- more -->
+<p><strong>本服成员</strong></p>
+<p>1️⃣ 服务器运营者(腐竹):  <input type="button" value="yuchenghao" onclick="alert('本服腐竹:yuchenghao\n有事加Q1103490699反馈')"/></p>
+<!-- more -->
+<p>2️⃣ 服务器管理员(op妹子):<input type="button" value="本站站长" onclick="alert('我是站长，不喜欢个性化!\n不想骚扰Q2185744914')"/></p>
+<!-- more -->
+<p>3️⃣ 服务器玩家(万物):  <button onclick="myFunction()">您哟You</button></p>
+<!-- more -->]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[[梦幻世界][&Pixelmoon][&1.12]全新的RPG服务器!]]></title>
@@ -93,8 +122,8 @@
 <a href="http://www.lianjixia.com/">联机侠官网</a><br>
 <a href="https://jq.qq.com/?_wv=1027&amp;k=5bWtptm">服务器官方群(建议)</a></p>
 <p><strong>本群人员</strong><br>
-本服群主: 龙隐<br>
-本服管理员: 本站站长<br>
+本群群主: 龙隐<br>
+本群管理员: 本站站长<br>
 本群人员: You</p>
 ]]></content>
     </entry>
@@ -124,9 +153,9 @@
 <a href="http://www.lianjixia.com/">联机侠官网</a><br>
 <a href="https://jq.qq.com/?_wv=1027&amp;k=5libShI">服务器官方群(建议)</a></p>
 <p><strong>本服人员</strong><br>
-本服房主: 龙娃<br>
-本服管理员: 龙隐<br>
-本服技术: 本站站长</p>
+本服房主: <input type="button" value="龙娃" onclick="alert('未注册改服务(请联系管理员Q2185744914)')"/></p>
+<p>本服管理员: <input type="button" value="龙隐" onclick="alert('未注册改服务(请联系管理员Q2185744914)')"/></p>
+<p>本服隐藏: <input type="button" value="本站站长" onclick="alert('我是站长，不喜欢个性化!\n不想骚扰Q2185744914')"/></p>
 ]]></content>
     </entry>
 </feed>
