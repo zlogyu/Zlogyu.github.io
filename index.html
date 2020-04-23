@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://zlogyu.github.io/favicon.ico?v=1587668795144">
+<link rel="shortcut icon" href="https://zlogyu.github.io/favicon.ico?v=1587671218715">
 <link rel="stylesheet" href="https://zlogyu.github.io/styles/main.css">
 
 
@@ -18,7 +18,11 @@
 
 
 
-    <meta name="description" content="Dreamrp-官方网站|作者:zlogyu">
+    <meta name="description" content="Dreamrp-官方网站|作者:zlogyu&lt;br&gt;&lt;br&gt;目前时间:&lt;span id=&#34;cg&#34;&gt;2016/12/21 12:00:00&lt;/span&gt;
+&lt;script&gt;
+&lt;!--这个cg就是span的id，初始化Date时间并转版化为字符string类型,每1000毫秒，setInterval() 就会调权用函数，直到被关闭。--&gt;
+setInterval(&#34;cg.innerHTML=new Date().toLocaleString()&#34;,1000);
+&lt;/script&gt;">
     
   </head>
   <body>
@@ -28,7 +32,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://zlogyu.github.io">
-        <img src="https://zlogyu.github.io/images/avatar.png?v=1587668795144" class="site-logo">
+        <img src="https://zlogyu.github.io/images/avatar.png?v=1587671218715" class="site-logo">
         <h1 class="site-title">Drphack-官方网站</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -78,7 +82,11 @@
       
     </div>
     <div class="site-description">
-      Dreamrp-官方网站|作者:zlogyu
+      Dreamrp-官方网站|作者:zlogyu<br><br>目前时间:<span id="cg">2016/12/21 12:00:00</span>
+<script>
+<!--这个cg就是span的id，初始化Date时间并转版化为字符string类型,每1000毫秒，setInterval() 就会调权用函数，直到被关闭。-->
+setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
+</script>
     </div>
     <div class="site-footer">
       版权为Dreamrp所有,禁止违规!<a href="https://jq.qq.com/?_wv=1027&k=5d8FRMN" target="_blank">[欢迎加群]</a> | <a class="rss" href="https://zlogyu.github.io/atom.xml" target="_blank">RSS</a>
