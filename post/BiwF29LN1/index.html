@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | Drphack-官方网站</title>
+<title>[drp.2b2t][官方版][MC1.12]恐惧吧!危险的世界! | Drphack-官方网站</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,17 +12,21 @@
 <link rel="stylesheet" href="https://zlogyu.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="Dreamrp-官方网站|作者:zlogyu&lt;br&gt;&lt;br&gt;目前时间:&lt;span id=&#34;cg&#34;&gt;2016/12/21 12:00:00&lt;/span&gt;
-&lt;script&gt;
-&lt;!--这个cg就是span的id，初始化Date时间并转版化为字符string类型,每1000毫秒，setInterval() 就会调权用函数，直到被关闭。--&gt;
-setInterval(&#34;cg.innerHTML=new Date().toLocaleString()&#34;,1000);
-&lt;/script&gt;">
+    <meta name="description" content="等待广告词！
+" />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -96,10 +100,39 @@ setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">[drp.2b2t][官方版][MC1.12]恐惧吧!危险的世界!</h2>
+            <div class="post-date">2020-04-26</div>
             
+              <div class="feature-container" style="background-image: url('https://zlogyu.github.io/post-images/BiwF29LN1.jpeg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>等待广告词！</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://zlogyu.github.io/post/RPGs/">
+                  <h3 class="post-title">
+                    [Drp.server][官方版][MC1.11]炽热的RPG服务器
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -119,6 +152,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'f94e177cb1428152ac70',
+        clientSecret: 'd99c93ccf8c04b2741728d8e5ec04e53dc55f597',
+        repo: 'Drp',
+        owner: 'zlogyu',
+        admin: ['zlogyu'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

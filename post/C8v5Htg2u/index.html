@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | Drphack-官方网站</title>
+<title>炽热RPG赞助大佬名单 | Drphack-官方网站</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,17 +12,35 @@
 <link rel="stylesheet" href="https://zlogyu.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="Dreamrp-官方网站|作者:zlogyu&lt;br&gt;&lt;br&gt;目前时间:&lt;span id=&#34;cg&#34;&gt;2016/12/21 12:00:00&lt;/span&gt;
-&lt;script&gt;
-&lt;!--这个cg就是span的id，初始化Date时间并转版化为字符string类型,每1000毫秒，setInterval() 就会调权用函数，直到被关闭。--&gt;
-setInterval(&#34;cg.innerHTML=new Date().toLocaleString()&#34;,1000);
-&lt;/script&gt;">
+    <meta name="description" content="
+😰 &gt;&gt;目前还没有大佬来赞助哟
+No.1
+No.2
+No.3
+No.4
+No.5
+No.6
+No.7
+No.8
+😜 &gt;&gt;您们的赞助就是我们做服务器的动力!
+
+相关链接:
+🥉联机侠官网
+🥈返回主贴
+🥇加入官..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -96,10 +114,46 @@ setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">炽热RPG赞助大佬名单</h2>
+            <div class="post-date">2020-04-26</div>
             
+              <div class="feature-container" style="background-image: url('https://zlogyu.github.io/post-images/C8v5Htg2u.gif')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <hr>
+<p><strong>😰 &gt;&gt;目前还没有大佬来赞助哟</strong></p>
+<p>No.1<br>
+No.2<br>
+No.3<br>
+No.4<br>
+No.5<br>
+No.6<br>
+No.7<br>
+No.8</p>
+<p><strong>😜 &gt;&gt;您们的赞助就是我们做服务器的动力!</strong></p>
+<hr>
+<p><strong>相关链接:</strong></p>
+<p>🥉<a href="www.lianjixia.com">联机侠官网</a><br>
+🥈<a href="">返回主贴</a><br>
+🥇<a href="">加入官方QQ群</a></p>
+<p>😘 enjoy~</p>
+
+            </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -119,6 +173,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'f94e177cb1428152ac70',
+        clientSecret: 'd99c93ccf8c04b2741728d8e5ec04e53dc55f597',
+        repo: 'Drp',
+        owner: 'zlogyu',
+        admin: ['zlogyu'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

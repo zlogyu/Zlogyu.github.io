@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zlogyu.github.io</id>
     <title>Drphack-官方网站</title>
-    <updated>2020-04-23T19:49:37.778Z</updated>
+    <updated>2020-04-25T18:33:55.139Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zlogyu.github.io"/>
     <link rel="self" href="https://zlogyu.github.io/atom.xml"/>
@@ -16,8 +16,8 @@ setInterval(&quot;cg.innerHTML=new Date().toLocaleString()&quot;,1000);
     <rights>All rights reserved 2020, Drphack-官方网站</rights>
     <entry>
         <title type="html"><![CDATA[[Dreamrp]官网说明]]></title>
-        <id>https://zlogyu.github.io/Introduction/</id>
-        <link href="https://zlogyu.github.io/Introduction/">
+        <id>https://zlogyu.github.io/post/Introduction/</id>
+        <link href="https://zlogyu.github.io/post/Introduction/">
         </link>
         <updated>2100-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏 欢迎来到 Drp官网 ！<br>
@@ -45,9 +45,18 @@ setInterval(&quot;cg.innerHTML=new Date().toLocaleString()&quot;,1000);
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[[drp.2b2t][官方版][MC1.12]恐惧吧!危险的世界!]]></title>
+        <id>https://zlogyu.github.io/post/BiwF29LN1/</id>
+        <link href="https://zlogyu.github.io/post/BiwF29LN1/">
+        </link>
+        <updated>2020-04-25T18:08:10.000Z</updated>
+        <content type="html"><![CDATA[<p>等待广告词！</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[Drp.server][官方版][MC1.11]炽热的RPG服务器]]></title>
-        <id>https://zlogyu.github.io/RPGs/</id>
-        <link href="https://zlogyu.github.io/RPGs/">
+        <id>https://zlogyu.github.io/post/RPGs/</id>
+        <link href="https://zlogyu.github.io/post/RPGs/">
         </link>
         <updated>2020-04-22T17:58:46.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>本服特色</strong></p>
@@ -84,8 +93,8 @@ setInterval(&quot;cg.innerHTML=new Date().toLocaleString()&quot;,1000);
     </entry>
     <entry>
         <title type="html"><![CDATA[[梦幻世界][&Pixelmoon][&1.12]全新的RPG服务器!]]></title>
-        <id>https://zlogyu.github.io/pTzvGWQK1/</id>
-        <link href="https://zlogyu.github.io/pTzvGWQK1/">
+        <id>https://zlogyu.github.io/post/pTzvGWQK1/</id>
+        <link href="https://zlogyu.github.io/post/pTzvGWQK1/">
         </link>
         <updated>2020-04-22T17:53:41.000Z</updated>
         <content type="html"><![CDATA[<p>等待广告词</p>
@@ -93,8 +102,8 @@ setInterval(&quot;cg.innerHTML=new Date().toLocaleString()&quot;,1000);
     </entry>
     <entry>
         <title type="html"><![CDATA[[Drp.server][官方版][MC1.12]纯净生存服务器]]></title>
-        <id>https://zlogyu.github.io/maps/</id>
-        <link href="https://zlogyu.github.io/maps/">
+        <id>https://zlogyu.github.io/post/maps/</id>
+        <link href="https://zlogyu.github.io/post/maps/">
         </link>
         <updated>2020-04-22T17:38:06.000Z</updated>
         <content type="html"><![CDATA[<p>emm</p>
@@ -102,8 +111,8 @@ setInterval(&quot;cg.innerHTML=new Date().toLocaleString()&quot;,1000);
     </entry>
     <entry>
         <title type="html"><![CDATA[[Dreamrp][官方][神仙]Hacker黑客企鹅群]]></title>
-        <id>https://zlogyu.github.io/hacker/</id>
-        <link href="https://zlogyu.github.io/hacker/">
+        <id>https://zlogyu.github.io/post/hacker/</id>
+        <link href="https://zlogyu.github.io/post/hacker/">
         </link>
         <updated>2020-04-16T13:48:00.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>本群介绍</strong><br>
@@ -133,8 +142,8 @@ setInterval(&quot;cg.innerHTML=new Date().toLocaleString()&quot;,1000);
     </entry>
     <entry>
         <title type="html"><![CDATA[[Dreamrp][官方][模组]RPG修仙-1.7.10]]></title>
-        <id>https://zlogyu.github.io/RPG/</id>
-        <link href="https://zlogyu.github.io/RPG/">
+        <id>https://zlogyu.github.io/post/RPG/</id>
+        <link href="https://zlogyu.github.io/post/RPG/">
         </link>
         <updated>2020-04-16T13:14:17.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>本服特色</strong><br>
