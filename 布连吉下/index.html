@@ -18,7 +18,7 @@
             <img src="./buy_files/user.svg">
             <a href="http://user-v3-lianjixia-com.luyouxia.com/shop/buy.html?ss_user_sid=9677cb320d97f273c9d14ba3607bb7bb&amp;ss_user_name=12237wodeshi#">12237wodeshi</a>
         </span>
-        余额：<i class="zunshi"></i><span class="user-coin">30000</span>
+        余额：<i class="zunshi"></i><span class="user-coin">0</span>
         <span class="btnRecharge btn" style="text-align: center;margin:15px; padding:2px; padding-left:7px; padding-right:7px;" onclick="window.location=&#39;recharge.html?from=buy.html&#39;;"><small>立即充值</small></span>
         </div>
     </div>
@@ -101,24 +101,25 @@
                     <div class="btn">购买</div>
                 </div>
             </li></ul>
-        <form action="http://user-v3-lianjixia-com.luyouxia.com/shop/buy.html?ss_user_sid=9677cb320d97f273c9d14ba3607bb7bb&amp;ss_user_name=12237wodeshi" style="display:none" class="buyGoods" coin="20000">
+        <form action="http://user-v3-lianjixia-com.luyouxia.com/shop/buy.html?ss_user_sid=9677cb320d97f273c9d14ba3607bb7bb&amp;ss_user_name=12237wodeshi" style="display:none" class="buyGoods">
             <input type="text" class="goodsId"><!--隐藏表单，商品id-->
         </form>
     </div>
 </div>
 
-<div class="showgoods" style="display: none;">
-    <div class="picView2"><img src="./buy_files/203.png" alt=""></div>
-    <div class="goodsTit">【30天】VIP3钻石卡包月</div>
+<div class="showgoods" style="display: none">
+    <div class="picView2">
+    </div>
+    <div class="goodsTit">是否购买商品：XX？</div>
     <div>
         <button class="btn sure">购买</button>
         <button class="btn cancel">取消</button>
     </div>
 </div>
-<div class="layui-layer layui-layer-page layer-anim" id="layui-layer2" type="page" times="2" showtime="0" contype="object" style="z-index: 19891016; width: 400px; height: 300px; top: 120px; left: 433px;"><div class="layui-layer-title" style="cursor: move;">购买信息</div><div id="" class="layui-layer-content" style="height: 257.002px;"><div class="s-loading layui-layer-wrap" style="display: none;">
+<div class="s-loading" style="display: none">
     <div class="loadingPic"></div>
     <div class="desc">请稍等…</div>
-</div></div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span><span class="layui-layer-resize"></span></div>
+</div>
 <div class="s-success" style="display: none">
     <div class="loadingPic"></div>
     <div class="desc">购买成功!</div>
@@ -130,11 +131,11 @@
     </small></small>
     <div class=""><button class="btn cancel">确定</button></div>
 </div>
-<div class="layui-layer layui-layer-page layer-anim" id="layui-layer3" type="page" times="3" showtime="0" contype="object" style="z-index: 19891017; width: 400px; height: 300px; top: 120px; left: 433px;"><div class="layui-layer-title" style="cursor: move;">未购买成功</div><div id="" class="layui-layer-content" style="height: 257.002px;"><div class="s-error layui-layer-wrap" style="">
+<div class="s-error" style="display: none">
     <div class="loadingPic"></div>
-    <div class="desc">成功购买!</div>
+    <div class="desc">购买失败，原因XXXXXX</div>
     <div class=""><button class="btn cancel">确定</button></div>
-</div></div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span><span class="layui-layer-resize"></span></div>
+</div>
 <script src="./buy_files/jquery-3.2.1.min.js.下载"></script>
 <script src="./buy_files/jquery.cookie.js.下载"></script>
 <script src="./buy_files/util.js.下载"></script>
@@ -143,4 +144,4 @@
 <script src="./buy_files/layer.js.下载"></script>
 
 
-<div class="layui-layer-move"></div><div class="layui-layer-shade" id="layui-layer-shade2" times="2" style="z-index:19891015; background-color:#000; opacity:0.3; filter:alpha(opacity=30);"></div><div class="layui-layer-shade" id="layui-layer-shade3" times="3" style="z-index:19891016; background-color:#000; opacity:0.3; filter:alpha(opacity=30);"></div></body></html>
+</body></html>
